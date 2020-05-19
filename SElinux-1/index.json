@@ -53,7 +53,10 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal\u001b[m\r\n"
+  },
   "backend": {
     "imageid": "centos"
   }
