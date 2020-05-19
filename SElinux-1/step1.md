@@ -4,7 +4,7 @@ All objects and subjects on an SELinux system have a label.
 ls -Z .
 ```{{execute T1}}
 
-As you can see there is a file called `helloworld` that has the label `system_u:object_r:admin_home_t:s0`.
+As you can see there is a file called `helloworld` that has the label `unconfined_u:object_r:admin_home_t:s0`.
 
 The label has multiple components. In the label above you see:
 | Component     | Value    | 
