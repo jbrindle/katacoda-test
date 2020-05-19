@@ -7,12 +7,13 @@ ls -Z .
 As you can see there is a file called `helloworld` that has the label `unconfined_u:object_r:admin_home_t:s0`.
 
 The label has multiple components. In the label above you see:
-| Component     | Value    | 
-|---------------|----------|
-| SELinux user  | system_u |
-| Role          | object_r |
-| Type          | admin_home_t | 
-| MLS Level     | s0       |
+
+|  Component    | Value        |
+| --------------|--------------|
+| SELinux user  | system_u     |
+| Role          | object_r     |
+| Type          | admin_home_t |
+| MLS Level     | s0           | 
 
 Each of these components is used differently by SELinux. For now we will focus on the type, in this case `admin_home_t`.
 
